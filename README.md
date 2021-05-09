@@ -6,8 +6,8 @@
 - A writeup is included in the program that details how I transformed sort.c to mod_sort.c.
 
 ## Instructions to run the program:
-- Compile with gcc and flags: gcc -Wall -pedantic -ansi -g Sort sort.c // this will show the compile errors of the original program
-- Compile with gcc and flags: gcc -Wall -pedantic -ansi -g ModSort mod_sort.c // this will show the compile errors are gone
+- Compile with gcc and flags: gcc -Wall -pedantic -ansi -g -o Sort sort.c // this will show the compile errors of the original program
+- Compile with gcc and flags: gcc -Wall -pedantic -ansi -g -o ModSort mod_sort.c // this will show the compile errors are gone
 - Run GDB with ModSort: gdb ./ModSort
 - In the GDB shell, execute: run // this shows how there are no errors showing up in GDB
 - Run Valgrind with ModSort: valgrind ./ModSort // this shows how there are no errors showing up in Valgrind
